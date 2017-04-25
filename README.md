@@ -16,12 +16,12 @@ O segundo trabalho de *Princípios de Engenharia de Software (INF1629)* é uma t
 
 Nome | Descrição
 ------------ | -------------
-LICENSE | Licença do trabalho.
-README.md | Informação geral sobre o trabalho.
-prog1.lua | Programa 1.
-prog2.lua | Programa 2.
-prog3.lua | Programa 3.
-prog4.lua | Programa 4.
+LICENSE | Licença do trabalho
+README.md | Informação geral sobre o trabalho
+prog1.lua | Programa 1
+prog2.lua | Programa 2
+prog3.lua | Programa 3
+prog4.lua | Programa 4
 
 ### Pré Requisitos ###
 
