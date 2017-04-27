@@ -1,9 +1,13 @@
 27/04/2017
 
-- Escolhemos o exemplo Code Golf (P醙ina 52 - Programa 06) e Monolith (P醙ina 28 - Programa 03).
-- Executamos os programas Code Golf (P醙ina 52 - Programa 06) e Monolith (P醙ina 28 - Programa 03) em Python.
-- Dentro do diret髍io do programa Code Golf, executamos:
+- Escolhemos os exemplos Code Golf (P谩gina 52 - Programa 06), Monolith (P谩gina 28 - Programa 03), Kick Forward (P谩gina 68 - Programa 08) e Infinite Mirror (P谩gina 62 - Programa 07).
+- Executamos os programas Code Golf, Monolith, Kick Forward e Infinite Mirror em Python na terminal.
+- Dentro do diret贸rio do programa Code Golf, executamos:
 	> python tf-06.py ../test.txt
-- Dentro do diret髍io do programa Monolith, executamos:
+- Dentro do diret贸rio do programa Monolith, executamos:
 	> python tf-03.py ../test.txt
+- Dentro do diret贸rio do programa Kick Forward, executamos:
+	> python tf-08.py ../test.txt
+- Dentro do diret贸rio do programa Infinite Mirror, executamos:
+	> python tf-07.py ../test.txt
 
