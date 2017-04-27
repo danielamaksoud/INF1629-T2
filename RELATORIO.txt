@@ -1,0 +1,9 @@
+27/04/2017
+
+- Escolhemos o exemplo Code Golf (Página 52 - Programa 06) e Monolith (Página 28 - Programa 03).
+- Executamos os programas Code Golf (Página 52 - Programa 06) e Monolith (Página 28 - Programa 03) em Python.
+- Dentro do diretório do programa Code Golf, executamos:
+	> python tf-06.py ../test.txt
+- Dentro do diretório do programa Monolith, executamos:
+	> python tf-03.py ../test.txt
+
