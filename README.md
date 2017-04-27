@@ -49,5 +49,5 @@ lua prog_.lua
 - **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
 
 ### Licença ###
-O código em linguagem *LUA* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
+O código em linguagem *Lua* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
 
