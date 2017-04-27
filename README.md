@@ -7,7 +7,7 @@
 - **Instituição**: Pontifícia Universidade Católica do Rio de Janeiro
 
 ### Descrição ###
-O segundo trabalho de *Princípios de Engenharia de Software (INF1629)* é uma tradução de quatro programas da linguagem de programação *Python* para *LUA*, seguindo quatro estilos de programação do livro *Exercises in programming style* de Cristina Lopes (@crista).
+O segundo trabalho de *Princípios de Engenharia de Software (INF1629)* é uma tradução de quatro programas da linguagem de programação *Python* para *Lua*, seguindo quatro estilos de programação do livro *Exercises in programming style* de Cristina Lopes (@crista).
 
 - **Versão**: 1.0
 - **Tamanho**: 221 linhas
@@ -38,14 +38,14 @@ lua prog_.lua
 
 ### Construído com ###
 - **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
-- **[LUA](http://lua-users.org/)** - Linguagem de programação utilizada.
+- **[Lua](http://lua-users.org/)** - Linguagem de programação utilizada.
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
 ### Referências ###
 - **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
 - **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
-- **[LUA - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
+- **[Lua - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
 - **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
 
 ### Licença ###
