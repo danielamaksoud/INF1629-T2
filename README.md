@@ -18,10 +18,11 @@ Nome | Descrição
 ------------ | -------------
 LICENSE | Licença do trabalho
 README.md | Informação geral sobre o trabalho
-prog1.lua | Programa 1
-prog2.lua | Programa 2
-prog3.lua | Programa 3
-prog4.lua | Programa 4
+RELATORIO.txt | Relatório do processo de desenvolvimento do trabalho
+prog1.lua | Code Golf
+prog2.lua | Monolith
+prog3.lua | Kick Forward
+prog4.lua | Inifinite Mirror
 
 ### Pré Requisitos ###
 
