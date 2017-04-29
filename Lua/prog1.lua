@@ -9,7 +9,7 @@ if #arg < 1 then
 end
 
 -- Abrimos o arquivo stop_words.txt para leitura
-local stop_words_file = io.open("../Documentos/stop_words.txt", "r")
+local stop_words_file = io.open("../stop_words.txt", "r")
 
 -- Criamos uma lista vazia chamada stop_words
 local stop_words = {}
@@ -63,6 +63,8 @@ end
 
 -- Fechamos o arquivo test.txt
 test_file:close()
+
+
 
 
 
