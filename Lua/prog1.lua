@@ -37,12 +37,32 @@ end
 stop_words_file:close()
 
 -- Abrimos o arquivo test.txt para leitura
-local words_file = io.open(arg[1], "r")
+local test_file = io.open(arg[1], "r")
 
+-- Criamos uma lista vazia chamada words
+local words = {}
 
+-- Separamos as palavras do arquivo test.txt e as salvamos em letras minúsculas na lista words
+while true do
+        line = test_file.read(test_file)
+    
+        if not line then 
+            break 
+        end
+    
+        for word in string.gmatch(line, "%a+") do
+            words[#words+1] = string.lower(word)
+        end
+end
+
+-- Imprimimos as palavras de parada da lista stop_words na tela
+print ("-----------------------------\nPalavras de Teste\n-----------------------------")
+for i = 1, #words do
+      print (i, words[i])
+end
 
 -- Fechamos o arquivo test.txt
-words_file:close()
+test_file:close()
 
 
 
