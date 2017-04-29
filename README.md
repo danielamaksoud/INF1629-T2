@@ -41,8 +41,8 @@ lua prog_.lua ../Documentos/test.txt
 - Substitua **_** pelo número correspondente ao arquivo do programa a ser executado.
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** (Editor de textos utilizado)
-- **[Lua](http://lua-users.org/)** (Linguagem de programação utilizada)
+- **[Brackets](http://brackets.io/)** (editor de textos utilizado)
+- **[Lua](http://lua-users.org/)** (linguagem de programação utilizada)
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
