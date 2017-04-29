@@ -20,9 +20,9 @@ local stop_words_text = stop_words_file:read"*all" -- Variavel para armazenar o 
 local stop_words = {}
 
 -- Separamos as palavras de parada do arquivo stop_words.txt e as salvamos na tabela stop_words
-stop_words = stop_words:gsub(",", " ")
+stop_words_text = stop_words_text:gsub(",", " ")
 
-for word in stop_words:gmatch"%w+" do
+for word in stop_words_text:gmatch"%w+" do
   table.insert(stop_words, word)
 end
 
@@ -30,7 +30,7 @@ end
 stop_words_file:close()
 
 
-print(table.unpack())
+print(table.unpack(stop_words))
 
 
 -- Abrimos o arquivo test.txt para leitura
