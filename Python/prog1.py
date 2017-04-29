@@ -6,7 +6,7 @@
 
 import re, sys, collections
 
-stops = open('stop_words.txt').read().split(',')
+stops = open('../Documentos/stop_words.txt').read().split(',')
 
 words = re.findall('[a-z]{2,}', open(sys.argv[1]).read().lower())
 
