@@ -22,6 +22,7 @@ while true do
 end
 
 -- Imprimimos as palavras de parada da lista stop_words na tela
+print ("-----------------------------\nPalavras de Parada\n-----------------------------")
 for i = 1, #stop_words do
       print (i, stop_words[i])
 end
