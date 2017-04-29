@@ -1,7 +1,7 @@
 # Segundo Trabalho de Princípios de Engenharia de Software #
 - **Alunas**: 
-  * Daniela Brazão Maksoud (**[@danielabrazao](https://github.com/danielabrazao)**) - 1321873
-  * Thaíssa Falbo (**[@tfalbo](https://github.com/tfalbo)**) - 1421110
+  * Daniela Brazão Maksoud (**[@danielabrazao](https://github.com/danielabrazao)**) — 1321873
+  * Thaíssa Falbo (**[@tfalbo](https://github.com/tfalbo)**) — 1421110
 - **Disciplina**: INF1629
 - **Professor**: Julio Cesar Sampaio do Prado Leite
 - **Instituição**: Pontifícia Universidade Católica do Rio de Janeiro
@@ -41,16 +41,16 @@ lua prog_.lua ../Documentos/test.txt
 - Substitua **_** pelo número correspondente ao arquivo do programa a ser executado.
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** - Editor de textos utilizado.
-- **[Lua](http://lua-users.org/)** - Linguagem de programação utilizada.
+- **[Brackets](http://brackets.io/)** — Editor de textos utilizado.
+- **[Lua](http://lua-users.org/)** — Linguagem de programação utilizada.
 
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
 ### Referências ###
-- **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
-- **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
+- **[Princípios de Engenharia de Software — Notas de Aula](https://pes2006.wordpress.com/)**
+- **[Rudá Moura — Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 - **[Lua - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
-- **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
+- **[lua-users — Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
 - **Exercises in programming style** — Cristina Lopes
 
 ### Licença ###
