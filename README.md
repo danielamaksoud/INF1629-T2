@@ -49,6 +49,8 @@ lua prog_.lua ../Documentos/test.txt
 - **[Rudá Moura (Running Lua on Mac OS X)](http://rudamoura.com/luaonmacosx.html)**
 - **[Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
 - **[lua-users (Math Library Tutorial)](http://lua-users.org/wiki/MathLibraryTutorial)**
+- **[lua-users (String Library Tutorial)](http://lua-users.org/wiki/StringLibraryTutorial)**
+- **[Stack Overflow (How do I read until the end of file?)](http://stackoverflow.com/questions/5094417/how-do-i-read-until-the-end-of-file)**
 - **Exercises in programming style** — Cristina Lopes
 
 ### Licença ###
