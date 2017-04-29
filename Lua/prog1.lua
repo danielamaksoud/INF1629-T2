@@ -2,7 +2,7 @@
 -- C O D E  G O L F
 -- =/=/=/=/=/=/=/=/=/=/
 
--- Tratamento de Erro
+-- Tratamos um erro de uso do programa
 if #arg < 1 then
     print ("Uso: lua " .. arg[0] .. " <arquivo-de-teste>")
     return
@@ -36,9 +36,10 @@ end
 -- Fechamos o arquivo stop_words.txt
 stop_words_file:close()
 
-
 -- Abrimos o arquivo test.txt para leitura
 local words_file = io.open(arg[1], "r")
+
+
 
 -- Fechamos o arquivo test.txt
 words_file:close()
