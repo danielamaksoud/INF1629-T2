@@ -51,6 +51,7 @@ lua prog_.lua ../Documentos/test.txt
 - **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 - **[Lua - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
 - **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
+- **Exercises in programming style** — Cristina Lopes
 
 ### Licença ###
 O código em linguagem *Lua* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
