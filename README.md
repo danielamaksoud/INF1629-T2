@@ -9,9 +9,6 @@
 ### Descrição ###
 O segundo trabalho de *Princípios de Engenharia de Software (INF1629)* é uma tradução de quatro programas da linguagem de programação *Python* para *Lua*, seguindo quatro estilos de programação do livro *Exercises in programming style* da autora Cristina Lopes (**[@crista](https://github.com/crista)**).
 
-- **Versão**: 1.0
-- **Tamanho**: 221 linhas
-
 ### Arquivos ###
 
 Nome | Descrição
