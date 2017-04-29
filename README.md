@@ -47,10 +47,10 @@ lua prog_.lua ../Documentos/test.txt
 [![Powered by LUA](https://github.com/danielabrazao/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
 
 ### Referências ###
-- **[Princípios de Engenharia de Software — Notas de Aula](https://pes2006.wordpress.com/)**
-- **[Rudá Moura — Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
+- **[Princípios de Engenharia de Software - Notas de Aula](https://pes2006.wordpress.com/)**
+- **[Rudá Moura - Running Lua on Mac OS X](http://rudamoura.com/luaonmacosx.html)**
 - **[Lua - Programming in Lua (first edition)](http://www.lua.org/pil/contents.html)**
-- **[lua-users — Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
+- **[lua-users - Math Library Tutorial](http://lua-users.org/wiki/MathLibraryTutorial)**
 - **Exercises in programming style** — Cristina Lopes
 
 ### Licença ###
