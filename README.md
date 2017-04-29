@@ -36,7 +36,7 @@ test.txt | Arquivo de teste
 - Vá para o diretório onde se encontra o arquivo *prog1.lua*, *prog2.lua*, *prog3.lua* ou *prog4.lua*.
 - Digite:
 ```
-lua prog_.lua
+lua prog_.lua test.txt
 ```
 
 ### Construído com ###
