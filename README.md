@@ -29,7 +29,7 @@ Nome | Descrição
 ### Pré Requisitos ###
 
 É necessário instalar: 
-- **[LUA](http://lua-users.org/)**
+- **[Lua](http://lua-users.org/)**
 
 ### Execução ###
 - Abra o terminal.
