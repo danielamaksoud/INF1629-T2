@@ -15,8 +15,6 @@ while true do
             break 
         end
     
-        table.insert(stop_words, line:match("([^,])"))
-    
         for word in string.gmatch(line, "%a+") do
             stop_words[#stop_words+1] = word
         end
