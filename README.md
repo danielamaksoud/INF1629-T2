@@ -36,7 +36,7 @@ Nome | Descrição
 - Vá para o diretório onde se encontra o arquivo *prog1.lua*, *prog2.lua*, *prog3.lua* ou *prog4.lua*.
 - Digite:
 ```
-lua prog_.lua Documentos/test.txt
+lua prog_.lua ../Documentos/test.txt
 ```
 - Substitua **_** pelo número correspondente ao arquivo do programa a ser executado.
 
