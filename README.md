@@ -51,6 +51,7 @@ lua prog_.lua ../Documentos/test.txt
 - **[lua-users (Math Library Tutorial)](http://lua-users.org/wiki/MathLibraryTutorial)**
 - **[lua-users (String Library Tutorial)](http://lua-users.org/wiki/StringLibraryTutorial)**
 - **[Stack Overflow (How do I read until the end of file?)](http://stackoverflow.com/questions/5094417/how-do-i-read-until-the-end-of-file)**
+- **[Stack Overflow (Write numbers from file to array in Lua)](http://stackoverflow.com/questions/40835452/write-numbers-from-file-to-array-in-lua)**
 - **Exercises in programming style** — Cristina Lopes
 
 ### Licença ###
