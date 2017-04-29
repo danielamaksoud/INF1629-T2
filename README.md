@@ -34,10 +34,9 @@ Nome | Descrição
 ### Execução ###
 - Abra o terminal.
 - Vá para o diretório onde se encontra o arquivo *prog1.lua*, *prog2.lua*, *prog3.lua* ou *prog4.lua*.
-- Certifique-se de que os arquivos *stop_words.txt* e *test.txt* estejam no mesmo diretório onde se encontra o arquivo do programa a ser executado.
 - Digite:
 ```
-lua prog_.lua test.txt
+lua prog_.lua Documentos/test.txt
 ```
 - Substitua **_** pelo número correspondente ao arquivo do programa a ser executado.
 
