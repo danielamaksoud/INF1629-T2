@@ -23,6 +23,8 @@ prog1.lua | Code Golf
 prog2.lua | Monolith
 prog3.lua | Kick Forward
 prog4.lua | Inifinite Mirror
+stop_words.txt | Arquivo de palavras de parada
+test.txt | Arquivo de teste
 
 ### Pré Requisitos ###
 
