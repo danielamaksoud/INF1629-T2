@@ -1,6 +1,6 @@
--- =/=/=/=/=/=/=/=/=/=/
--- C O D E  G O L F
--- =/=/=/=/=/=/=/=/=/=/
+-- =/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+-- C O N T A D O R  D E  P A L A V R A S  D E  P A R A D A
+-- =/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
 
 -- Abrimos o arquivo stop_words.txt para leitura
 local stop_words_file = io.open("../Documentos/stop_words.txt", "r")
