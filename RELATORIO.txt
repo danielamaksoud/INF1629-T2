@@ -10,4 +10,9 @@
 	> python tf-08.py ../test.txt
 - Dentro do diretório do programa Infinite Mirror, executamos:
 	> python tf-07.py ../test.txt
+	
+29/04/2017
+
+- Lemos o prólogo do livro Exercises in Programming Style de Cristina Lopes.
+- Iniciamos a tradução do programa Code Golf de Python para Lua.
 
