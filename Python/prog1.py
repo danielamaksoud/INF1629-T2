@@ -1,3 +1,7 @@
+# =/=/=/=/=/=/=/=/=/=/
+# C O D E  G O L F
+# =/=/=/=/=/=/=/=/=/=/
+
 #!/usr/bin/env python
 
 import re, sys, collections
