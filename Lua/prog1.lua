@@ -57,12 +57,39 @@ end
 
 -- Imprimimos as palavras de parada da lista stop_words na tela
 print ("-----------------------------\nPalavras de Teste\n-----------------------------")
-for i = 1, #words do
+for i = 1, #words, 1 do
       print (i, words[i])
 end
 
 -- Fechamos o arquivo test.txt
 test_file:close()
+
+-- Criamos uma lista vazia chamada counts
+counts = {}
+
+j = 1
+
+-- Comparamos as palavras de teste da lista words com as palavras de parada da lista stop_words e incluímos na lista counts aquelas que fazem parte das palavras de teste, mas não fazem parte das palavra de parada
+for i = 1, #words, 1 do
+    for k = 1, #stop_words do
+        if words[i] ~= stop_words[k] then
+            j = j + 1
+        end
+        if j == #stop_words then
+            counts[#counts+1] = words[i]
+            j = 0
+        end
+    end
+end
+
+-- Imprimimos as palavras da lista counts na tela
+print ("-----------------------------\nPalavras\n-----------------------------")
+for i = 1, #counts, 1 do
+      print (i, counts[i])
+end
+
+
+
 
 
 
