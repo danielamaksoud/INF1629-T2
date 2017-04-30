@@ -93,11 +93,13 @@ mt = {}
 
 j = 1
 
+c = 0
+
 for i = 1, #counts, 1 do
     for k = i+1, #counts, 1 do
         if counts[i] == counts[k] then
             table.remove(counts, k)
-            = #t
+            c = c + 1
             j = j + 1
         end
     end
@@ -113,7 +115,7 @@ end
 
 -- Imprimimos as palavras da lista counts na tela
 print ("-----------------------------\nPalavras\n-----------------------------")
-for y = 1, #mt do
+for y = 1, #mt-c do
     for x = 1, 2 do
          print(mt[y][x])
     end
