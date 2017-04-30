@@ -145,7 +145,7 @@ for y = 1, #mt-c, 1 do
     end
 end
 
--- Imprimimos as palavras da lista counts e seus respectivos números de ocorrência na tela
+-- Imprimimos as palavras da lista counts ordenadas por número de ocorrência e seus respectivos números de ocorrência na tela
 print ("--------------------------------------------\nPalavras + Ocorrências\n--------------------------------------------\n")
 for y = 1, #mt-c, 1 do
     for x = 1, 2 do
