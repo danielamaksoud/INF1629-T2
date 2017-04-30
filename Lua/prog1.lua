@@ -148,18 +148,28 @@ end
 
 -- Imprimimos as palavras da lista counts em ordem descrescente de número de ocorrência e seus respectivos números de ocorrência na tela
 print ("--------------------------------------------\nPalavras + Ocorrências\n--------------------------------------------\n")
-for y = 1, #mt-c, 1 do
-    for x = 1, 2 do
-        if x == 1 then
-            print("Palavra:", mt[y][x])
-        else
-            print("Ocorrência(s):", mt[y][x])
+if #mt > 25 then
+    for y = 1, 25, 1 do
+        for x = 1, 2 do
+            if x == 1 then
+                print("Palavra:", mt[y][x])
+            else
+                print("Ocorrência(s):", mt[y][x])
+            end
         end
+        -- print(i, mt[i])
+        print ("\n-----------------------------\n")
     end
-    -- print(i, mt[i])
-    print ("\n-----------------------------\n")
+    
+    else
+        for y = 1, #mt-c, 1 do
+            for x = 1, 2 do
+                if x == 1 then
+                    print("Palavra:", mt[y][x])
+                else
+                    print("Ocorrência(s):", mt[y][x])
+                end
+            end
+            print ("\n-----------------------------\n")
+        end 
 end
-
-
-
-
