@@ -125,7 +125,7 @@ for y = 1, #mt-c, 1 do
         if x == 1 then
             print("Palavra:", mt[y][x])
         else
-            print("Ocorrência:", mt[y][x])
+            print("Ocorrência(s):", mt[y][x])
         end
     end
     -- print(i, mt[i])
@@ -153,7 +153,7 @@ for y = 1, #mt-c, 1 do
         if x == 1 then
             print("Palavra:", mt[y][x])
         else
-            print("Ocorrência:", mt[y][x])
+            print("Ocorrência(s):", mt[y][x])
         end
     end
     -- print(i, mt[i])
