@@ -68,19 +68,20 @@ test_file:close()
 counts = {}
 
 -- Inicializamos um contador de palavras de teste diferentes de palavras de parada
-j = 1
+j = 0
 
 -- Comparamos as palavras de teste da lista words com as palavras de parada da lista stop_words e incluímos na lista counts aquelas que fazem parte das palavras de teste, mas não fazem parte das palavras de parada
 for i = 1, #words, 1 do
-    for k = 1, #stop_words do
+    for k = 1, #stop_words, 1 do
         if words[i] ~= stop_words[k] then
             j = j + 1
         end
-        if j == #stop_words then
+    end
+    if j == #stop_words then
             counts[#counts+1] = words[i]
             j = 0
-        end
     end
+    j = 0
 end
 
 -- Imprimimos as palavras da lista counts na tela
