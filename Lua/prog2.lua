@@ -35,7 +35,7 @@ end
 
 -- Abrimos o arquivo test.txt para leitura
 local test_file = io.open(arg[1], "r")
-local test_text = test_file:read"*all" -- Variavel para armazenar o texto
+local test_text = test_file:read"*all":lower() -- Variavel para armazenar o texto
 
 -- Fechamos o arquivo stop_words.txt
 test_file:close()
