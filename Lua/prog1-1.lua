@@ -79,7 +79,6 @@ for i = 1, #words, 1 do
     end
     if j == #stop_words then
             counts[#counts+1] = words[i]
-            j = 0
     end
     j = 0
 end
