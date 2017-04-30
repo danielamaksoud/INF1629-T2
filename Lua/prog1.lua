@@ -128,7 +128,6 @@ for y = 1, #mt-c, 1 do
             print("Ocorrência(s):", mt[y][x])
         end
     end
-    -- print(i, mt[i])
     print ("\n-----------------------------\n")
 end
 
@@ -157,7 +156,6 @@ if #mt > 25 then
                 print("Ocorrência(s):", mt[y][x])
             end
         end
-        -- print(i, mt[i])
         print ("\n-----------------------------\n")
     end
     
