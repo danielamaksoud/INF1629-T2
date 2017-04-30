@@ -88,9 +88,36 @@ for i = 1, #counts, 1 do
       print (i, counts[i])
 end
 
+-- Criamos uma matriz
+mt = {}
 
+j = 1
 
+for i = 1, #counts, 1 do
+    for k = i+1, #counts, 1 do
+        if counts[i] == counts[k] then
+            table.remove(counts, k)
+            = #t
+            j = j + 1
+        end
+    end
+    mt[#mt+1] = {counts[i], j}
+    j = 1
+end
 
+-- Imprimimos as palavras da lista counts na tela
+print ("-----------------------------\nPalavras\n-----------------------------")
+for i = 1, #counts, 1 do
+      print (i, counts[i])
+end
+
+-- Imprimimos as palavras da lista counts na tela
+print ("-----------------------------\nPalavras\n-----------------------------")
+for y = 1, #mt do
+    for x = 1, 2 do
+         print(mt[y][x])
+    end
+end
 
 
 
