@@ -26,7 +26,7 @@ local stop_words = {}
 stop_words_text = stop_words_text:gsub(",", " ")
 
 for word in stop_words_text:gmatch"%w+" do
-  table.insert(stop_words, word)
+  stop_words[word] = true
 end
 
 
