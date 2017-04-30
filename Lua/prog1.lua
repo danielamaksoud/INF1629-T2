@@ -132,6 +132,7 @@ for y = 1, #mt-c, 1 do
     print ("\n-----------------------------\n")
 end
 
+-- Ordenamos as palavras da lista coutns em ordem descrescente de número de ocorrência
 for y = 1, #mt-c, 1 do
     for k = y+1, #mt-c, 1 do
         if (mt[y][2] < mt[k][2]) then
@@ -145,7 +146,7 @@ for y = 1, #mt-c, 1 do
     end
 end
 
--- Imprimimos as palavras da lista counts ordenadas por número de ocorrência e seus respectivos números de ocorrência na tela
+-- Imprimimos as palavras da lista counts em ordem descrescente de número de ocorrência e seus respectivos números de ocorrência na tela
 print ("--------------------------------------------\nPalavras + Ocorrências\n--------------------------------------------\n")
 for y = 1, #mt-c, 1 do
     for x = 1, 2 do
