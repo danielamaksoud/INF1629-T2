@@ -9,19 +9,19 @@
   * **Infinite Mirror** (Página 62 - Programa 07)
 - Dentro do diretório do programa **Code Golf**, executamos na terminal:
 	```
-	python tf-06.py ../test.txt
+	python prog1.py ../test.txt
 	```
 - Dentro do diretório do programa **Monolith**, executamos na terminal:
 	```
-	python tf-03.py ../test.txt
+	python prog2.py ../test.txt
 	```
 - Dentro do diretório do programa **Kick Forward**, executamos na terminal:
 	```
-	python tf-08.py ../test.txt
+	python prog3.py ../test.txt
 	```
 - Dentro do diretório do programa **Infinite Mirror**, executamos na terminal:
 	```
-	python tf-07.py ../test.txt
+	python prog4.py ../test.txt
 	```
 
 ### 29/04/2017 ###
