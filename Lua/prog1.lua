@@ -31,6 +31,5 @@ for word in test_text:gmatch"%w+" do
 end 
 
 for c, v in pairs(word_freqs) do
-        table.sort(word_freqs, v)
         print(c .. "  -  " .. v)
 end
