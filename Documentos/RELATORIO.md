@@ -27,21 +27,21 @@
 ### 29/04/2017 ###
 
 - Lemos o prólogo do livro **Exercises in Programming Style** de Cristina Lopes.
-- Iniciamos a tradução do programa **Code Golf** de *Python* para *Lua*.
+- Iniciamos a tradução de *Python* para *Lua* do programa **Code Golf**.
 
 ### 30/04/2017 ###
 
-- Iniciamos a tradução do programa **Monolith** de *Python* para *Lua*.
-- Finalizamos a tradução do programa **Monolith** de *Python* para *Lua*.
+- Iniciamos a tradução de *Python* para *Lua* do programa **Monolith**.
+- Finalizamos a tradução de *Python* para *Lua* do programa **Monolith**.
 
 ### 01/05/2017 ###
 
-- Finalizamos a tradução do programa **Code Golf** de *Python* para *Lua*.
-- Iniciamos a tradução do programa **Kick Forward** de *Python* para *Lua*.
-- Iniciamos a tradução do programa **Infinite Mirror** de *Python* para *Lua*.
+- Finalizamos a tradução de *Python* para *Lua* do programa **Code Golf**.
+- Iniciamos a tradução de *Python* para *Lua* do programa **Kick Forward**.
+- Iniciamos a tradução de *Python* para *Lua* do programa **Infinite Mirror**.
 
 ### 02/05/2017 ###
 
-- Finalizamos a tradução do programa **Kick Forward** de *Python* para *Lua*.
-- Finalizamos a tradução do programa **Infinite Mirror** de *Python* para *Lua*.
+- Finalizamos a tradução de *Python* para *Lua* do programa **Kick Forward**.
+- Finalizamos a tradução de *Python* para *Lua* do programa **Infinite Mirror**.
 
