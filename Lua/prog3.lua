@@ -1,3 +1,8 @@
+--[[
+    Nome da funcao: read_file
+    Descricao: Le o arquivo fornecido na linha de comando, passa o texto do mesmo e a funcao sort para a funcao remove_stop_words_add_frequencies.
+]]
+
 read_file = function (path_to_file, func)
     local test_file = io.open(path_to_file, "r")
     local test_text = test_file:read("*all"):lower()
@@ -5,6 +10,11 @@ read_file = function (path_to_file, func)
     
     func(test_text, sort)
 end
+
+--[[
+    Nome da funcao: remove_stop_words_add_frequencies
+    Descricao: Le o arquivo stop_words.txt, identifica se o indice word de stop_words e palavra de parada, armazena as palavras que nao sao de parada e suas frequencias em word_freqs e passa as frequencias e a funcao print_text para a funcao sort.
+]]
 
 remove_stop_words_add_frequencies = function (test_text, func)
     local stop_words_file = io.open("../stop_words.txt", "r")
@@ -31,6 +41,11 @@ remove_stop_words_add_frequencies = function (test_text, func)
     
     func(word_freqs, print_text)
 end
+
+--[[
+    Nome da funcao: sort
+    Descricao: Coloca os dados (key e value) de word_freqs em um array multidimensional chamado mt, ordena mt e passa mt para print_text.
+]]
 
 sort = function (word_freqs, func)
     local mt = {}
@@ -60,6 +75,11 @@ sort = function (word_freqs, func)
     func(mt)
 end
 
+--[[
+    Nome da funcao: print_text
+    Descricao: Exibe os dados de mt na tela.
+]]
+
 print_text = function (mt)
     if (#mt > 25) then 
         for i = 1, 25 do
@@ -74,7 +94,7 @@ print_text = function (mt)
 end
 
 --[[
-    The main function
+    Funcao principal
 ]]
 
 read_file(arg[1], remove_stop_words_add_frequencies)
