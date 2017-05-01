@@ -29,7 +29,7 @@ def wf_print(wordfreq):
         return
     else:
         (w, c) = wordfreq[0]
-        print w, '-', c
+        print (w, '-', c) 
         wf_print(wordfreq[1:])
 
 stop_words = set(open('../stop_words.txt').read().split(','))
