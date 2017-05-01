@@ -1,7 +1,3 @@
--- =/=/=/=/=/=/=/=/=/=/
--- C O D E  G O L F
--- =/=/=/=/=/=/=/=/=/=/
-
 local stop_words_file = io.open("../stop_words.txt", "r")
 local stop_words_text = stop_words_file:read("*all")
 stop_words_file:close()
