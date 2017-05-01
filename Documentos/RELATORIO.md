@@ -2,21 +2,24 @@
 
 ### 27/04/2017 ###
 
-- Escolhemos os exemplos Code Golf (Página 52 - Programa 06), Monolith (Página 28 - Programa 03), Kick Forward (Página 68 - Programa 08) e Infinite Mirror (Página 62 - Programa 07).
-- Executamos os programas Code Golf, Monolith, Kick Forward e Infinite Mirror em Python na terminal.
-- Dentro do diretório do programa Code Golf, executamos:
+- Escolhemos os seguintes programas do livro **Exercises in programming style** de Cristina Lopes:
+- **Code Golf** (*Página 52 - Programa 06*)
+- **Monolith** (*Página 28 - Programa 03)
+- **Kick Forward** (Página 68 - Programa 08)
+- **Infinite Mirror** (Página 62 - Programa 07)
+- Dentro do diretório do programa **Code Golf**, executamos na terminal:
 	```
 	python tf-06.py ../test.txt
 	```
-- Dentro do diretório do programa Monolith, executamos:
+- Dentro do diretório do programa **Monolith**, executamos na terminal:
 	```
 	python tf-03.py ../test.txt
 	```
-- Dentro do diretório do programa Kick Forward, executamos:
+- Dentro do diretório do programa **Kick Forward**, executamos na terminal:
 	```
 	python tf-08.py ../test.txt
 	```
-- Dentro do diretório do programa Infinite Mirror, executamos:
+- Dentro do diretório do programa **Infinite Mirror**, executamos na terminal:
 	```
 	python tf-07.py ../test.txt
 	```
