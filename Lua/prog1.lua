@@ -32,17 +32,12 @@ local mt = {}
 
 i = 1
 
-print("\n".."ANTES:\n====================")
-
 for c, v in pairs(word_freqs) do
         mt[i] = {}
         mt[i][1] = c
         mt[i][2] = v
-        print(mt[i][1].." - "..mt[i][2])
         i = i + 1
 end
-
-print("\n".."DEPOIS:\n====================")
 
 for j = 1, #mt, 1 do
     for i = 1, #mt-1, 1 do
@@ -57,8 +52,12 @@ for j = 1, #mt, 1 do
     end
 end
 
-for i = 1, #mt, 1 do
-    print(mt[i][1].." - "..mt[i][2])
+if (#mt <= 25) then 
+    for i = 1, #mt, 1 do
+        print(mt[i][1].." - "..mt[i][2])
+    end
+    else
+        for i = 1, 25, 1 do
+            print(mt[i][1].." - "..mt[i][2])
+        end
 end
-
-print("\n")
