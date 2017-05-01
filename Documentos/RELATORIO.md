@@ -4,9 +4,9 @@
 
 - Escolhemos os seguintes programas do livro **Exercises in programming style** de Cristina Lopes:
   * **Code Golf** (*Página 52 - Programa 06*)
-  * **Monolith** (*Página 28 - Programa 03)
-  * **Kick Forward** (Página 68 - Programa 08)
-  * **Infinite Mirror** (Página 62 - Programa 07)
+  * **Monolith** (*Página 28 - Programa 03*)
+  * **Kick Forward** (*Página 68 - Programa 08*)
+  * **Infinite Mirror** (*Página 62 - Programa 07*)
 - Dentro do diretório do programa **Code Golf**, executamos na terminal:
 	```
 	python tf-06.py ../test.txt
