@@ -54,6 +54,9 @@ lua prog_.lua ../test.txt
 - **[Stack Overflow (Write numbers from file to array in Lua)](http://stackoverflow.com/questions/40835452/write-numbers-from-file-to-array-in-lua)**
 - **Exercises in programming style** — Cristina Lopes
 
+### Contribuidor ###
+- **[@elihugarret](https://github.com/elihugarret)**
+
 ### Licença ###
 O código em linguagem *Lua* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
 
