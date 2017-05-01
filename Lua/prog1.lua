@@ -52,12 +52,12 @@ for j = 1, #mt, 1 do
     end
 end
 
-if (#mt <= 25) then 
-    for i = 1, #mt, 1 do
-        print(mt[i][1].." - "..mt[i][2])
+if (#mt > 25) then 
+    for i = 1, 25, 1 do
+            print(mt[i][1].." - "..mt[i][2])
     end
     else
-        for i = 1, 25, 1 do
+        for i = 1, #mt, 1 do
             print(mt[i][1].." - "..mt[i][2])
         end
 end
