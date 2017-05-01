@@ -39,8 +39,8 @@ for c, v in pairs(word_freqs) do
         i = i + 1
 end
 
-for j = 1, #mt, 1 do
-    for i = 1, #mt-1, 1 do
+for j = 1, #mt do
+    for i = 1, #mt-1 do
         if mt[i][2] < mt[i+1][2] then
             aux1 = mt[i][1]
             aux2 = mt[i][2]
@@ -53,11 +53,11 @@ for j = 1, #mt, 1 do
 end
 
 if (#mt > 25) then 
-    for i = 1, 25, 1 do
+    for i = 1, 25 do
             print(mt[i][1].." - "..mt[i][2])
     end
     else
-        for i = 1, #mt, 1 do
+        for i = 1, #mt do
             print(mt[i][1].." - "..mt[i][2])
         end
 end
