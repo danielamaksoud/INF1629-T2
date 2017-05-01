@@ -26,7 +26,7 @@
 
 ### 29/04/2017 ###
 
-- Lemos o prólogo do livro Exercises in Programming Style de Cristina Lopes.
+- Lemos o prólogo do livro **Exercises in Programming Style** de Cristina Lopes.
 - Iniciamos a tradução do programa Code Golf de Python para Lua.
 
 ### 30/04/2017 ###
