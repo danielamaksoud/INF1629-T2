@@ -47,5 +47,5 @@ for line in open(sys.argv[1]):
         i += 1
 
 for tf in word_freqs[0:25]:
-    print tf[0], ' - ', tf[1]
+    print (tf[0], ' - ', tf[1])
 
