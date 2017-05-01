@@ -16,3 +16,13 @@
 - Lemos o prólogo do livro Exercises in Programming Style de Cristina Lopes.
 - Iniciamos a tradução do programa Code Golf de Python para Lua.
 
+30/04/2017
+
+- Iniciamos a tradução do programa Monolith de Python para Lua.
+- Finalizamos a tradução do programa Monolith de Python para Lua.
+
+01/05/2017
+
+- Finalizamos a tradução do programa Code Golf de Python para Lua.
+- Iniciamos a tradução do programa Kick Forward de Python para Lua.
+- Iniciamos a tradução do programa Infinite Mirror de Python para Lua.
