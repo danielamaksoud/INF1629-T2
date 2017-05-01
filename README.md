@@ -15,7 +15,7 @@ Nome | Descrição
 ------------ | -------------
 *LICENSE* | Licença do trabalho
 *README.md* | Informação geral sobre o trabalho
-*RELATORIO.txt* | Relatório do processo de desenvolvimento do trabalho
+*RELATORIO.md* | Relatório do processo de desenvolvimento do trabalho
 *count_stop_words.lua* | Contador de palavras de parada
 *prog1.lua*, *prog1.py* | Code Golf
 *prog2.lua*, *prog2.py* | Monolith
