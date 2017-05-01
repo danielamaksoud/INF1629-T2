@@ -39,3 +39,9 @@
 - Finalizamos a tradução do programa **Code Golf** de *Python* para *Lua*.
 - Iniciamos a tradução do programa **Kick Forward** de *Python* para *Lua*.
 - Iniciamos a tradução do programa **Infinite Mirror** de *Python* para *Lua*.
+
+### 02/05/2017 ###
+
+- Finalizamos a tradução do programa **Kick Forward** de *Python* para *Lua*.
+- Finalizamos a tradução do programa **Infinite Mirror** de *Python* para *Lua*.
+
