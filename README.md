@@ -16,6 +16,7 @@ Nome | Descrição
 *LICENSE* | Licença do trabalho
 *README.md* | Informação geral sobre o trabalho
 *DIARIO.md* | Diário do processo de desenvolvimento do trabalho
+*ESTILOS.md* | Estilos de programação escolhidos para o desenvolvimento do trabalho
 **prog1.lua**, *prog1.py* | **Code Golf**
 **prog2.lua**, *prog2.py* | **Monolith**
 **prog3.lua**, *prog3.py* | **Kick Forward**
