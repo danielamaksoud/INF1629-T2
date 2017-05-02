@@ -8,6 +8,7 @@
   * **Kick Forward** (Página 68 - Programa 08)
   * **Infinite Mirror** (Página 62 - Programa 07)
 - Dentro do diretório **Python**, executamos na terminal:
+
 	```
 	python prog1.py ../test.txt
 	```
