@@ -9,6 +9,22 @@ if #arg < 1 then
     return
 end
 
+function count(word_list, stopwords, wordfreqs)
+  local word
+  if #word_list == 0 then
+    return
+  else
+    word = word_list[1]
+    if stopwords[word] then
+      if word_freqs[word] then
+        wordfreqs[word] = wordfreqs[word] + 1
+      else
+        wordfreqs[word] = 1
+      end
+      count(table.remove(word_freqs, 1), stopwords, wordfreqs)
+    end
+  end
+end
 
 -----
 -- COLETA STOPWORDS DO ARQUIVO DE STOPWORDS
@@ -53,13 +69,19 @@ test_text = test_text:gsub(","," ")
 print("TestText:")
 print(test_text)
 
-local word_list = {}
+-- Criamos a tabela  words com todas as palavras que não são stop_words do test_text.
+
+local words = {}
 
 for word in test_text:gmatch"%w+" do
-	table.insert(word_list,word)
+	table.insert(words,word)
 end
 
-print(unpack(word_list))
+print(unpack(words))
 
--- Criamos uma tabela vazia chamada text_words
+-- Criamos uma tabela vazia word_freqs para contar as frequencias das palavras que não são stopwords
 local word_freqs = {}  
+
+--- Parte importante
+
+count(words, stop_words, word_freqs)
