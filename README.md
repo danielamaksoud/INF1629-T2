@@ -30,7 +30,7 @@ Nome | Descrição
 
 ### Execução ###
 - Abra o terminal.
-- Vá para o diretório onde se encontra o arquivo *prog1.lua*, *prog2.lua*, *prog3.lua* ou *prog4.lua*.
+- Vá para o diretório onde se encontra o arquivo **prog1.lua**, **prog2.lua**, **prog3.lua** ou **prog4.lua**.
 - Digite:
 ```
 lua prog_.lua ../test.txt
