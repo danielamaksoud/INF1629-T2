@@ -35,7 +35,7 @@ Nome | Descrição
 ```
 lua prog_.lua ../test.txt
 ```
-- Substitua **_** pelo número do nome do arquivo do programa a ser executado.
+- Substitua **_** pelo número do nome do programa a ser executado.
 
 ### Construído com ###
 - **[Brackets](http://brackets.io/)** (editor de textos utilizado)
