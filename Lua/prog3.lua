@@ -50,24 +50,24 @@ end
 sort = function (word_freqs, func)
     local mt = {}
 
-    i = 1
+    count1 = 1
 
     for c, v in pairs(word_freqs) do
-            mt[i] = {}
-            mt[i][1] = c
-            mt[i][2] = v
-            i = i + 1
+            mt[count1] = {}
+            mt[count1][1] = c
+            mt[count1][2] = v
+            count1 = count1 + 1
     end
 
-    for j = 1, #mt do
-        for i = 1, #mt-1 do
-            if (mt[i][2] < mt[i+1][2]) then
-                aux1 = mt[i][1]
-                aux2 = mt[i][2]
-                mt[i][1] = mt[i+1][1]
-                mt[i][2] = mt[i+1][2]
-                mt[i+1][1] = aux1
-                mt[i+1][2] = aux2
+    for count2 = 1, #mt do
+        for count1 = 1, #mt-1 do
+            if (mt[count1][2] < mt[count1+1][2]) then
+                aux1 = mt[count1][1]
+                aux2 = mt[count1][2]
+                mt[count1][1] = mt[count1+1][1]
+                mt[count1][2] = mt[count1+1][2]
+                mt[count1+1][1] = aux1
+                mt[count1+1][2] = aux2
             end
         end
     end
@@ -82,12 +82,12 @@ end
 
 print_text = function (mt)
     if (#mt > 25) then 
-        for i = 1, 25 do
-                print(mt[i][1].." - "..mt[i][2])
+        for count1 = 1, 25 do
+                print(mt[count1][1].." - "..mt[count1][2])
         end
         else
-            for i = 1, #mt do
-                print(mt[i][1].." - "..mt[i][2])
+            for count1 = 1, #mt do
+                print(mt[count1][1].." - "..mt[count1][2])
             end
     end
 
