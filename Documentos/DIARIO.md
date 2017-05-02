@@ -7,19 +7,16 @@
   * **Monolith** (Página 28 - Programa 03)
   * **Kick Forward** (Página 68 - Programa 08)
   * **Infinite Mirror** (Página 62 - Programa 07)
-- Dentro do diretório do programa **Code Golf**, executamos na terminal:
+- Dentro do diretório **Python**, executamos na terminal:
 	```
 	python prog1.py ../test.txt
 	```
-- Dentro do diretório do programa **Monolith**, executamos na terminal:
 	```
 	python prog2.py ../test.txt
 	```
-- Dentro do diretório do programa **Kick Forward**, executamos na terminal:
 	```
 	python prog3.py ../test.txt
 	```
-- Dentro do diretório do programa **Infinite Mirror**, executamos na terminal:
 	```
 	python prog4.py ../test.txt
 	```
