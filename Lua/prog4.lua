@@ -10,23 +10,32 @@ if #arg < 1 then
 end
 
 function count(word_list, stopwords, wordfreqs)
-	print(#word_list)
 	local word
-  	if #word_list == 0 then
+  	if #words == 0 then
     	return
   	else
-    	word = word_list[1]
+    	word = words[1]
     	if stopwords[word] then
       		if wordfreqs[word] then
         		wordfreqs[word] = wordfreqs[word] + 1
       		else
         		wordfreqs[word] = 1
       		end
-      		count(table.remove(wordfreqs, 1), stopwords, wordfreqs)
+      		count(table.remove(words, 1), stopwords, wordfreqs)
  		end	   
     end
 end
 
+function wf_print(wordfreq)
+	--if #wordfreq == 0 then
+	--	print('Tabela Vazia')
+	--	return
+	--else
+		for c, v in pairs(wordfreq) do
+  			print(c .. "  -  " .. v)
+		end
+	--end
+end
 
 -----
 -- COLETA STOPWORDS DO ARQUIVO DE STOPWORDS
@@ -49,10 +58,6 @@ for word in stop_words_text:gmatch"%w+" do
   stop_words[word] = true
 end
 
-print("Stopwords:")
-for c, v in pairs(stop_words) do
-  print(c .. "  -  " .. tostring(v))
-end
 
 
 -----
@@ -68,26 +73,30 @@ test_file:close()
 
 test_text = test_text:gsub(","," ")
 
-print("TestText:")
-print(test_text)
 
 -- Criamos a tabela  words com todas as palavras que não são stop_words do test_text.
 
-local words = {}
+words = {}
 
 for word in test_text:gmatch"%w+" do
 	table.insert(words,word)
 end
 
-print(#words)
-
---print(unpack(words))
+print("Tabela de palavras a serem avaliadas:")
+print(unpack(words))
 
 -- Criamos uma tabela vazia word_freqs para contar as frequencias das palavras que não são stopwords
 local word_freqs = {}  
 
 --- Parte importante
 
-
-
 count(words, stop_words, word_freqs)
+
+print("Tamanho da Tabela word_freqs: " .. #word_freqs)
+
+wf_print(word_freqs)
+
+
+
+
+
