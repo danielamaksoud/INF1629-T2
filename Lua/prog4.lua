@@ -10,6 +10,7 @@ if #arg < 1 then
 end
 
 function count(word_list, stopwords, wordfreqs)
+	print(#word_list)
 	local word
   	if #word_list == 0 then
     	return
@@ -78,11 +79,15 @@ for word in test_text:gmatch"%w+" do
 	table.insert(words,word)
 end
 
-print(unpack(words))
+print(#words)
+
+--print(unpack(words))
 
 -- Criamos uma tabela vazia word_freqs para contar as frequencias das palavras que não são stopwords
 local word_freqs = {}  
 
 --- Parte importante
+
+
 
 count(words, stop_words, word_freqs)
