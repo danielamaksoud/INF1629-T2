@@ -16,10 +16,10 @@ Nome | Descrição
 *LICENSE* | Licença do trabalho
 *README.md* | Informação geral sobre o trabalho
 *DIARIO.md* | Diário do processo de desenvolvimento do trabalho
-*prog1.lua*, *prog1.py* | **Code Golf**
-*prog2.lua*, *prog2.py* | **Monolith**
-*prog3.lua*, *prog3.py* | **Kick Forward**
-*prog4.lua*, *prog4.py* | **Inifinite Mirror**
+**prog1.lua**, *prog1.py* | **Code Golf**
+**prog2.lua**, *prog2.py* | **Monolith**
+**prog3.lua**, *prog3.py* | **Kick Forward**
+**prog4.lua**, *prog4.py* | **Inifinite Mirror**
 *stop_words.txt* | Arquivo de palavras de parada
 *test.txt* | Arquivo de teste
 
