@@ -43,5 +43,8 @@
 ### 02/05/2017 ###
 
 - Finalizamos a tradução de *Python* para *Lua* do programa **Kick Forward**.
+
+### 03/05/2017 ###
+
 - Finalizamos a tradução de *Python* para *Lua* do programa **Infinite Mirror**.
 
