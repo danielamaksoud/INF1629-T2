@@ -3,10 +3,10 @@
 ### 27/04/2017 ###
 
 - Escolhemos os seguintes programas do livro **Exercises in programming style** de Cristina Lopes:
-  * **Code Golf** (Página 52 - Programa 06)
-  * **Monolith** (Página 28 - Programa 03)
-  * **Kick Forward** (Página 68 - Programa 08)
-  * **Infinite Mirror** (Página 62 - Programa 07)
+  * **Code Golf** (Página **52** - Programa **06** - **prog1.py**)
+  * **Monolith** (Página **28** - Programa **03** - **prog2.py**)
+  * **Kick Forward** (Página **68** - Programa **08** - **prog3.py**)
+  * **Infinite Mirror** (Página **62** - Programa **07** - **prog4.py**)
 - Dentro do diretório **Python**, executamos na terminal:
 
 	```
