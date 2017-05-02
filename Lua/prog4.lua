@@ -53,8 +53,13 @@ test_text = test_text:gsub(","," ")
 print("TestText:")
 print(test_text)
 
------
+local word_list = {}
 
+for word in test_text:gmatch"%w+" do
+	table.insert(word_list,word)
+end
+
+print(unpack(word_list))
 
 -- Criamos uma tabela vazia chamada text_words
 local word_freqs = {}  
