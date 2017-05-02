@@ -13,14 +13,14 @@ O segundo trabalho de **Princípios de Engenharia de Software (INF1629)** é uma
 
 Nome | Descrição
 ------------ | -------------
-*LICENSE* | Licença do trabalho
-*README.md* | Informação geral sobre o trabalho
-*DIARIO.md* | Diário do processo de desenvolvimento do trabalho
-*ESTILOS.md* | Estilos de programação escolhidos para o desenvolvimento do trabalho
-**prog1.lua**, *prog1.py* | **Code Golf**
-**prog2.lua**, *prog2.py* | **Monolith**
-**prog3.lua**, *prog3.py* | **Kick Forward**
-**prog4.lua**, *prog4.py* | **Inifinite Mirror**
+**[LICENSE](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Documentos/LICENSE)** | Licença do trabalho
+**[README.md](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/README.md)** | Informação geral sobre o trabalho
+**[DIARIO.md](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Documentos/DIARIO.md)** | Diário do processo de desenvolvimento do trabalho
+**[ESTILOS.md](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Documentos/ESTILOS.md)** | Estilos de programação escolhidos para o desenvolvimento do trabalho
+**[prog1.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog1.lua)**, **[prog1.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Code Golf**
+**[prog2.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog2.lua)**, **[prog2.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Monolith**
+**[prog3.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog3.lua)**, **[prog3.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Kick Forward**
+**[prog4.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog4.lua)**, **[prog4.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Inifinite Mirror**
 *stop_words.txt* | Arquivo de palavras de parada
 *test.txt* | Arquivo de teste
 
