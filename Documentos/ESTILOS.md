@@ -1,4 +1,4 @@
-# Arquivos #
+# Estilos de Programação #
 
 Nome | Descrição
 ------------ | -------------
