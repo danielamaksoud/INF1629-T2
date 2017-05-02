@@ -15,7 +15,7 @@ Nome | Descrição
 ------------ | -------------
 *LICENSE* | Licença do trabalho
 *README.md* | Informação geral sobre o trabalho
-*RELATORIO.md* | Relatório do processo de desenvolvimento do trabalho
+*DIARIO.md* | Diário do processo de desenvolvimento do trabalho
 *prog1.lua*, *prog1.py* | Code Golf
 *prog2.lua*, *prog2.py* | Monolith
 *prog3.lua*, *prog3.py* | Kick Forward
