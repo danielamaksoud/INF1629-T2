@@ -21,8 +21,8 @@ Nome | Descrição
 **[prog2.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog2.lua)**, **[prog2.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Monolith**
 **[prog3.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog3.lua)**, **[prog3.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Kick Forward**
 **[prog4.lua](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Lua/prog4.lua)**, **[prog4.py](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/Python/prog1.py)** | **Inifinite Mirror**
-*stop_words.txt* | Arquivo de palavras de parada
-*test.txt* | Arquivo de teste
+**[stop_words.txt](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/stop_words.txt)** | Arquivo de palavras de parada
+**[test.txt](https://github.com/danielabrazao/INF1629SegundoTrabalho/blob/master/test.txt)** | Arquivo de teste
 
 ### Pré Requisitos ###
 
