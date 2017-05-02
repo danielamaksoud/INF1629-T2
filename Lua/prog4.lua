@@ -10,21 +10,22 @@ if #arg < 1 then
 end
 
 function count(word_list, stopwords, wordfreqs)
-  local word
-  if #word_list == 0 then
-    return
-  else
-    word = word_list[1]
-    if stopwords[word] then
-      if word_freqs[word] then
-        wordfreqs[word] = wordfreqs[word] + 1
-      else
-        wordfreqs[word] = 1
-      end
-      count(table.remove(word_freqs, 1), stopwords, wordfreqs)
+	local word
+  	if #word_list == 0 then
+    	return
+  	else
+    	word = word_list[1]
+    	if stopwords[word] then
+      		if wordfreqs[word] then
+        		wordfreqs[word] = wordfreqs[word] + 1
+      		else
+        		wordfreqs[word] = 1
+      		end
+      		count(table.remove(wordfreqs, 1), stopwords, wordfreqs)
+ 		end	   
     end
-  end
 end
+
 
 -----
 -- COLETA STOPWORDS DO ARQUIVO DE STOPWORDS
