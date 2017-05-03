@@ -1,6 +1,6 @@
--- =/=/=/=/=/=/=/=/=/=/
+-- =/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
 -- I N F I N I T E   M I R R O R
--- =/=/=/=/=/=/=/=/=/=/
+-- =/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
 
 -- Conta tamanho de mapas em Lua (http://stackoverflow.com/questions/9613322/lua-table-getn-returns-0)
 function table.map_length(t)
