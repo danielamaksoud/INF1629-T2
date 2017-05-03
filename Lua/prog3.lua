@@ -1,3 +1,6 @@
+-- =/=/=/=/=/=/=/=/=/=/=/=/
+-- K I C K  F O R W A R D
+-- =/=/=/=/=/=/=/=/=/=/=/=/
 --[[
     Nome da funcao: read_file
     Descricao: Le o arquivo fornecido na linha de comando, passa o texto do mesmo e a funcao sort para a funcao remove_stop_words_add_frequencies.
