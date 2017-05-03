@@ -2,6 +2,14 @@
 -- I N F I N I T E   M I R R O R
 -- =/=/=/=/=/=/=/=/=/=/
 
+-- Conta tamanho de mapas em Lua (http://stackoverflow.com/questions/9613322/lua-table-getn-returns-0)
+function table.map_length(t)
+    local c = 0
+    for k,v in pairs(t) do
+         c = c+1
+    end
+    return c
+end
 
 -- Tratamos um erro de uso do programa
 if #arg < 1 then
@@ -9,32 +17,33 @@ if #arg < 1 then
     return
 end
 
+-- Função recursiva para contar palavras que não são stopwords
 function count(word_list, stopwords, wordfreqs)
-	local word
-  	if #words == 0 then
+  	if #word_list == 0 then
     	return
   	else
-    	word = words[1]
-    	if stopwords[word] then
-      		if wordfreqs[word] then
-        		wordfreqs[word] = wordfreqs[word] + 1
+    	word = word_list[1]
+    	if not stopwords[word] then
+      		if not wordfreqs[word] then
+      			wordfreqs[word] = 1	
       		else
-        		wordfreqs[word] = 1
+        		wordfreqs[word] = wordfreqs[word] + 1
       		end
-      		count(table.remove(words, 1), stopwords, wordfreqs)
- 		end	   
+ 		end
+ 		table.remove(word_list,1)
+      	count(word_list, stopwords, wordfreqs)	   
     end
 end
 
+-- Imprime o resultado
 function wf_print(wordfreq)
-	--if #wordfreq == 0 then
-	--	print('Tabela Vazia')
-	--	return
-	--else
+	if table.map_length(wordfreq) == 0 then
+		return
+	else
 		for c, v in pairs(wordfreq) do
   			print(c .. "  -  " .. v)
 		end
-	--end
+	end
 end
 
 -----
@@ -59,7 +68,6 @@ for word in stop_words_text:gmatch"%w+" do
 end
 
 
-
 -----
 -- COLETA PALAVRAS DO ARQUIVO DE TESTE
 ------
@@ -74,26 +82,20 @@ test_file:close()
 test_text = test_text:gsub(","," ")
 
 
--- Criamos a tabela  words com todas as palavras que não são stop_words do test_text.
 
-words = {}
+
+-- Criamos a tabela  words com todas as palavras que não são stop_words do test_text.
+local words = {}
 
 for word in test_text:gmatch"%w+" do
 	table.insert(words,word)
 end
 
-print("Tabela de palavras a serem avaliadas:")
-print(unpack(words))
 
 -- Criamos uma tabela vazia word_freqs para contar as frequencias das palavras que não são stopwords
 local word_freqs = {}  
 
---- Parte importante
-
 count(words, stop_words, word_freqs)
-
-print("Tamanho da Tabela word_freqs: " .. #word_freqs)
-
 wf_print(word_freqs)
 
 
