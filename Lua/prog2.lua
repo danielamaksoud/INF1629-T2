@@ -37,7 +37,7 @@ end
 local test_file = io.open(arg[1], "r")
 local test_text = test_file:read"*all":lower() -- Variavel para armazenar o texto
 
--- Fechamos o arquivo stop_words.txt
+-- Fechamos o arquivo test.txt
 test_file:close()
 
 -- Criamos uma tabela vazia chamada text_words
