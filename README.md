@@ -62,5 +62,6 @@ lua prog_.lua ../test.txt
 ### Licença ###
 O código em linguagem *Lua* é licenciado sob a **[Licença Pública Geral GNU Versão 3](http://www.gnu.org/licenses/gpl-3.0.html)**.
 
+### Trying Kitty ###
 ![Trying Kitty](https://github.com/danielamaksoud/INF1629SegundoTrabalho/blob/master/TryingKitty.png)
 
