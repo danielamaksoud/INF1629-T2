@@ -98,7 +98,7 @@ print_text = function (mt)
 end
 
 --[[
-    Funcao principal
+    Nome da Funcao: Principal
     Descricao: Le arquivo da linha de comando e chama as outras funcoes do programa.
 ]]
 
