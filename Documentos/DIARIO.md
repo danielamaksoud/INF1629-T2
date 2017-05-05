@@ -2,7 +2,7 @@
 
 ### 27/04/2017 ###
 
-- Escolhemos os seguintes programas do livro **Exercises in programming style** de Cristina Lopes:
+- Escolhemos os seguintes estilos de programação do livro **Exercises in programming style** de Cristina Lopes:
   * **Code Golf** (Página **52** - Programa **06** - **prog1.py**)
   * **Monolith** (Página **28** - Programa **03** - **prog2.py**)
   * **Kick Forward** (Página **68** - Programa **08** - **prog3.py**)
