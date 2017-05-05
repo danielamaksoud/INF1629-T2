@@ -99,6 +99,7 @@ end
 
 --[[
     Funcao principal
+    Descricao: Le arquivo da linha de comando e chama as outras funcoes do programa.
 ]]
 
 read_file(arg[1], remove_stop_words_add_frequencies)
