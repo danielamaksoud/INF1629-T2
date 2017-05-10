@@ -39,7 +39,7 @@ lua prog_.lua ../test.txt
 - Substitua **_** pelo número do nome do programa a ser executado.
 
 ### Construído com ###
-- **[Brackets](http://brackets.io/)** (editor de textos utilizado)
+- **[Brackets](http://brackets.io/)** (editor de código utilizado)
 - **[Lua](http://lua-users.org/)** (linguagem de programação utilizada)
 
 [![Powered by LUA](https://github.com/danielamaksoud/INF1629PrimeiroTrabalho/blob/master/Lua-Logo_64x64.png?raw=true)](https://www.lua.org/)
