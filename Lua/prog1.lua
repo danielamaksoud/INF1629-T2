@@ -57,3 +57,4 @@ if (#mt > 25) then
             print(mt[count1][1].." - "..mt[count1][2])
         end
 end
+#revisado por Roxana
