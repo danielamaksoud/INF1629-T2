@@ -50,7 +50,7 @@ end
     Nome da funcao: sort
     Descricao: Coloca os dados (key e value) de word_freqs em um array multidimensional chamado mt, ordena mt e passa mt para print_text.
 ]]
-
+-- revisão (Roxana): algo tem de errado na ordenação (vejam a imagem)
 sort = function (word_freqs, func)
     local mt = {}
 
