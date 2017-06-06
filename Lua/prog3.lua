@@ -27,7 +27,7 @@ remove_stop_words_add_frequencies = function (test_text, func)
 
     local stop_words = {}
 
-    --revisão (roxana) porque é retirado os alphanumericos do arquivo dos stop-words,
+    --revisão (roxana) porque é retirado os non-alphanumericos do arquivo dos stop-words,
     --quando isto deve de ser retirado só do arquivo pride-and-prejudice.txt 
     --como sim esta na linha 39
     for word in stop_words_text:gmatch"%w+" do
