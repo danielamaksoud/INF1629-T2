@@ -32,6 +32,10 @@ end
 -----
 -- TRATA ARQUIVO DE TESTE E FREQUENCIA
 ------
+-- Comentarios (Roxana): desde a linha 37 ate 58, o codigo não e tratado como "one piece of code, from beginning to end" 
+-- (pagina 29 do livro da Crista) 
+-- a parte da ordenação decrescente da frequencia das palavras não esta implementado
+
 
 -- Abrimos o arquivo test.txt para leitura
 local test_file = io.open(arg[1], "r")
