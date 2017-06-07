@@ -36,6 +36,9 @@ function count(word_list, stopwords, wordfreqs)
 end
 
 -- Imprime o resultado
+-- revisão (Roxana)
+-- a função wf_print devería tambem ser recursiva, segundo o estilo
+-- faltou o limite para printar só os 25 termos mais frequentes
 function wf_print(wordfreq)
 	if table.map_length(wordfreq) == 0 then
 		return
@@ -63,6 +66,11 @@ local stop_words = {}
 -- Separamos as palavras de parada do arquivo stop_words.txt e as salvamos na tabela stop_words
 stop_words_text = stop_words_text:gsub(",", " ")
 
+-- revisão (Roxana) a filtragem de carateres alfanumericos não é feito para este estilo no livro
+-- os estilo pipeline e kick-forward sim realizam essa filtragem 
+-- "Takes a string and returns a copy with all nonalphanumeric chars replaced by white space" (página 42)
+-- essa filtragem é feita para o texto a ser processado, no caso o 'pride-and-prejudice.txt'
+-- nas linhas 71-73 a filtragem esta sendo feito para a texto de stopwords
 for word in stop_words_text:gmatch"%w+" do
   stop_words[word] = true
 end
